@@ -1,0 +1,299 @@
+body {
+  background: #eee url("../images/bg.jpg") repeat repeat scroll;
+  font-family: "Lato", sans-serif;
+  padding: 70px 0 20px; }
+
+.btn.btn-transparent {
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease; }
+  .btn.btn-transparent:active, .btn.btn-transparent.active {
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  .btn.btn-transparent.active.focus, .btn.btn-transparent.active:focus, .btn.btn-transparent.focus, .btn.btn-transparent:active.focus, .btn.btn-transparent:active:focus, .btn.btn-transparent:focus {
+    outline: none; }
+  .btn.btn-transparent:focus, .btn.btn-transparent:hover {
+    color: #4093ff; }
+
+.navbar-nav > li.active a {
+  color: #ffc000; }
+.navbar-nav > li > a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease; }
+  .navbar-nav > li > a:focus, .navbar-nav > li > a:hover {
+    background-color: transparent;
+    color: #ffc000;
+    text-decoration: none; }
+
+#header {
+  background-color: #3c3c3c;
+  margin-bottom: 10px;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999; }
+  #header #navigation {
+    background-color: #303030;
+    margin: 0;
+    padding: 9px 0;
+    text-align: center; }
+    #header #navigation .navbar-nav {
+      background-color: #303030;
+      left: 0;
+      padding: 5px 15px;
+      position: fixed;
+      right: 0;
+      text-align: left;
+      z-index: 99999; }
+  #header #logo {
+    text-align: center; }
+    #header #logo h1 {
+      font-size: 31px;
+      font-weight: 300;
+      margin: 0 -15px;
+      text-transform: uppercase; }
+      #header #logo h1 a {
+        color: #fff;
+        -webkit-transition: color 0.3s ease;
+        -moz-transition: color 0.3s ease;
+        -ms-transition: color 0.3s ease;
+        -o-transition: color 0.3s ease;
+        transition: color 0.3s ease; }
+        #header #logo h1 a:focus, #header #logo h1 a:hover {
+          color: #4093ff;
+          text-decoration: none; }
+      #header #logo h1 b, #header #logo h1 strong {
+        font-weight: 900; }
+      #header #logo h1 span {
+        display: inline-block;
+        padding: 13px 0; }
+      #header #logo h1 small {
+        color: #fff;
+        font-size: 21px;
+        font-weight: 300;
+        text-transform: lowercase; }
+    #header #logo img {
+      display: inline-block;
+      margin: -10px auto 0; }
+  #header #search {
+    background-color: #303030;
+    float: right;
+    margin: 0;
+    padding: 9px 0;
+    text-align: center; }
+  #header #search-form {
+    background-color: #3c3c3c;
+    padding: 10px 15px 0;
+    position: fixed;
+    right: 0;
+    top: 60px;
+    z-index: 99999; }
+
+.widget {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.05); }
+  .widget:focus .widget-header, .widget:hover .widget-header {
+    background-color: #ffc000;
+    border-bottom-color: #c6c6c6; }
+    .widget:focus .widget-header .widget-title, .widget:hover .widget-header .widget-title {
+      color: #fff; }
+  .widget:focus .widget-content, .widget:hover .widget-content {
+    background-color: #e5e5e5; }
+    .widget:focus .widget-content > ul > li, .widget:hover .widget-content > ul > li {
+      border-bottom-color: #c4c4c4; }
+  .widget:focus.widget-featured-news .widget-content img, .widget:hover.widget-featured-news .widget-content img {
+    border-bottom-color: #cecece; }
+  .widget .widget-header {
+    background-color: #fff;
+    border-bottom: 2px solid #e5e5e5;
+    padding: 10px 15px;
+    -webkit-transition: background-color 0.3s ease, border-bottom-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease, border-bottom-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease, border-bottom-color 0.3s ease;
+    -o-transition: background-color 0.3s ease, border-bottom-color 0.3s ease;
+    transition: background-color 0.3s ease, border-bottom-color 0.3s ease; }
+    .widget .widget-header .widget-title {
+      color: #3c3c3c;
+      font-size: 18px;
+      font-weight: 900;
+      margin: 0;
+      text-transform: uppercase;
+      -webkit-transition: color 0.3s ease;
+      -moz-transition: color 0.3s ease;
+      -ms-transition: color 0.3s ease;
+      -o-transition: color 0.3s ease;
+      transition: color 0.3s ease; }
+  .widget .widget-content {
+    background-color: #fff;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease; }
+    .widget .widget-content h2 {
+      color: #3c3c3c;
+      font-weight: 900;
+      text-transform: uppercase;
+      margin: 0;
+      text-shadow: 0 1px 0 #fff; }
+      .widget .widget-content h2 a {
+        border-bottom: 1px solid transparent;
+        color: #3c3c3c;
+        text-decoration: none;
+        -webkit-transition: border-bottom-color 0.3s ease, color 0.3s ease;
+        -moz-transition: border-bottom-color 0.3s ease, color 0.3s ease;
+        -ms-transition: border-bottom-color 0.3s ease, color 0.3s ease;
+        -o-transition: border-bottom-color 0.3s ease, color 0.3s ease;
+        transition: border-bottom-color 0.3s ease, color 0.3s ease; }
+        .widget .widget-content h2 a:focus, .widget .widget-content h2 a:hover {
+          border-bottom-color: #4093ff;
+          color: #4093ff;
+          text-decoration: none; }
+    .widget .widget-content p {
+      color: #c4c4c4;
+      font-size: 14px;
+      font-weight: 300;
+      margin: 0; }
+    .widget .widget-content > ul {
+      margin: 0; }
+      .widget .widget-content > ul > li {
+        border-bottom: 1px solid #e5e5e5;
+        padding: 15px;
+        -webkit-transition: border-bottom-color 0.3s ease;
+        -moz-transition: border-bottom-color 0.3s ease;
+        -ms-transition: border-bottom-color 0.3s ease;
+        -o-transition: border-bottom-color 0.3s ease;
+        transition: border-bottom-color 0.3s ease; }
+        .widget .widget-content > ul > li:last-child {
+          border-bottom: none; }
+    .widget .widget-content .vc-wrapper {
+      display: table-cell;
+      vertical-align: middle;
+      height: 100px; }
+  .widget .article {
+    background-color: rgba(0, 0, 0, 0.9);
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    overflow-y: scroll;
+    padding: 30px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99999; }
+    .widget .article p {
+      color: #cccccc;
+      font-size: 16px;
+      font-weight: 300;
+      margin: 0 auto 10px;
+      max-width: 600px; }
+      .widget .article p.h2 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 900;
+        text-align: center; }
+    .widget .article .btn-close {
+      background-color: #FF6A59;
+      border-radius: 50px;
+      color: #fff;
+      font-size: 20px;
+      height: 42px;
+      margin: 0 0 20px;
+      padding: 6px 0;
+      width: 42px;
+      -webkit-transition: background-color 0.3s ease, color 0.3s ease;
+      -moz-transition: background-color 0.3s ease, color 0.3s ease;
+      -ms-transition: background-color 0.3s ease, color 0.3s ease;
+      -o-transition: background-color 0.3s ease, color 0.3s ease;
+      transition: background-color 0.3s ease, color 0.3s ease; }
+      .widget .article .btn-close:active, .widget .article .btn-close.active {
+        -webkit-box-shadow: none;
+        box-shadow: none; }
+      .widget .article .btn-close.active.focus, .widget .article .btn-close.active:focus, .widget .article .btn-close.focus, .widget .article .btn-close:active.focus, .widget .article .btn-close:active:focus, .widget .article .btn-close:focus {
+        outline: none; }
+      .widget .article .btn-close:focus, .widget .article .btn-close:hover {
+        background-color: #fff;
+        color: #FF6A59; }
+  .widget.widget-latest-news .widget-content h2 {
+    font-size: 14px;
+    line-height: 20px; }
+  .widget.widget-featured-news .widget-content h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 20px 0 5px; }
+  .widget.widget-featured-news .widget-content img {
+    border-bottom: 2px solid #e5e5e5;
+    -webkit-transition: border-bottom-color 0.3s ease;
+    -moz-transition: border-bottom-color 0.3s ease;
+    -ms-transition: border-bottom-color 0.3s ease;
+    -o-transition: border-bottom-color 0.3s ease;
+    transition: border-bottom-color 0.3s ease; }
+
+@media (min-width: 768px) {
+  #header #navigation,
+  #header #search {
+    max-width: 60px;
+    position: absolute; }
+  #header #navigation {
+    left: 0; }
+    #header #navigation .navbar-nav {
+      top: 60px; }
+  #header #logo {
+    left: 50%;
+    margin-left: -326.5px;
+    position: absolute; }
+  #header #search {
+    right: 0; }
+  #header #search-form {
+    padding: 10px 15px 13px; }
+
+  .widget {
+    margin: 0 -15px; } }
+@media (min-width: 992px) {
+  body {
+    padding-top: 80px; }
+
+  #header {
+    margin-bottom: 20px; }
+    #header #navigation {
+      background-color: transparent;
+      left: 323.328125px;
+      max-width: none;
+      padding: 5px 0;
+      position: relative; }
+      #header #navigation .navbar-nav {
+        background-color: transparent;
+        padding: 0;
+        position: static;
+        text-align: center;
+        top: 0; }
+    #header #logo {
+      left: initial;
+      margin-left: 0;
+      position: relative;
+      text-align: left; }
+    #header #search-form {
+      position: absolute;
+      right: -15px; } }
+@media (min-width: 1200px) {
+  #header #navigation {
+    background-color: transparent;
+    left: 390px;
+    max-width: none;
+    padding: 5px 0;
+    position: relative; } }
+
+/*# sourceMappingURL=application.css.map */
